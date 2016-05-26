@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-adc",
+  "version": "1.0.0",
+  "description": "eslint config for adc",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint-plugin-react": "*",
+    "eslint": "*"
+  },
+  "author": "Marc Harter <wavded@gmail.com>",
+  "license": "MIT"
+}
