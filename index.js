@@ -6,6 +6,7 @@ module.exports = {
     "es6": true,
   },
   "rules": {
+    "no-console": 0,
     "no-shadow": 2,
     "jsx-quotes": 1,
     "semi": [1, "never"],
