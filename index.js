@@ -33,5 +33,7 @@ module.exports = {
     'template-curly-spacing': [1, 'never'],
     'yield-star-spacing': 1,
     'no-multi-spaces': 1,
+    'object-curly-newline': 1,
+    'rest-spread-spacing': 1,
   },
 }
