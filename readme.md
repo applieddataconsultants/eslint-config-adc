@@ -16,6 +16,14 @@ Then add the following to your `.eslintrc`
 }
 ```
 
+If you are developing a React project, use the following instead:
+
+```
+{
+  "extends": "adc/react"
+}
+```
+
 ### Project badge
 
 Use this in one of your projects? Include one of these badges in your readme to let people know that your code is using the adc style.
