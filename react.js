@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['./', 'plugin:react/recommended'],
+  'extends': ['./index.js', 'plugin:react/recommended'],
   'plugins': ['react'],
   'rules': {
     'react/sort-prop-types': 1,
@@ -12,9 +12,5 @@ module.exports = {
     'react/jsx-space-before-closing': 1,
     'react/jsx-indent-props': [1, 2],
   },
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
-    },
-  },
+  'parserOptions': {'ecmaFeatures': {'jsx': true}},
 }
