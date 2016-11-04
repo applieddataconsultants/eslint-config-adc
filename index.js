@@ -11,6 +11,7 @@ module.exports = {
     'no-extra-parens': 0,
     'no-regex-spaces': 1,
     'no-unsafe-negation': 2,
+    'valid-jsdoc': 1,
 
     // Best Practices.
     'dot-location': [1, 'property'],
@@ -56,6 +57,10 @@ module.exports = {
     'space-infix-ops': 1,
     'space-unary-ops': 1,
     'spaced-comment': 1,
+
+    // Node.
+    'handle-callback-err': 2,
+    'no-path-concat': 2,
 
     // ECMAScript 6.
     'arrow-parens': [1, 'as-needed'],
