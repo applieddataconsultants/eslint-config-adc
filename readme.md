@@ -2,10 +2,10 @@
 
 An ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for Node/JS projects at Applied Data Consultants. Intended not only for linting but also for formatting per the `--fix` flag.
 
-### Setup
+# Setup
 
 ```sh
-npm install eslint-config-standard -g
+npm install eslint-config-adc -g
 ```
 
 Then add the following to your `.eslintrc`
@@ -24,7 +24,7 @@ If you are developing a React project, use the following instead:
 }
 ```
 
-### Project badge
+# Project badge
 
 Use this in one of your projects? Include one of these badges in your readme to let people know that your code is using the adc style.
 
