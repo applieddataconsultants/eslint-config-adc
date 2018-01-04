@@ -25,6 +25,7 @@ module.exports = {
     // Variables.
     'no-shadow': 2,
     'no-undef-init': 1,
+    'no-unused-vars': [1, {argsIgnorePattern: '^_'}],
 
     // Stylistic Issues.
     'array-bracket-spacing': [1, 'never'],
